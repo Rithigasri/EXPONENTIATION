@@ -7,21 +7,38 @@ To write a program to find the exponentiation of a number.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
-1. Get the input from the user.
-2. Use exponentiation operator to find the exponentiation of a number.
+## Algorithm:
+## Step 1:
+Define a function.
+
+## Step 2:
+Use exponentiation operator to find the exponentiation of a number.
+
+## Step 3:
+Print the Output.
+
+## Step 4:
+Call the function.
 
 ## Program:
 ```
-/*
+
 Program to find the exponentiation of a number.
-Developed by: 
-RegisterNumber: 
-*/
+Developed by: Rithiga Sri.B 
+RegisterNumber: 21500732
+def exp(x):
+    
+    x=x**2
+    print("Exponentiation of a given number:",x)
+
+x=int(input())
+
+exp(x) 
+
 ```
 
 ## Output:
-![exponentiation of a number](expo.png)
+![exponentiation of a number](./Output.png)
 
 
 ## Result:
